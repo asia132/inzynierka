@@ -1,0 +1,10 @@
+set term png
+set output outputname
+
+# set yrange [-2:2]
+set title "Ordinary Differential Equations"
+set grid
+# splot filename u 1:2:3 with lines lt 2
+plot filename u 2:3 #lt 2
+
+set output
